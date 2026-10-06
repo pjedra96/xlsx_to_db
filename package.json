@@ -1,0 +1,39 @@
+{
+  "name": "xlsx_to_database",
+  "version": "3.0.0",
+  "description": "Program that backs up the data from an excel file into a database",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "xlsx-to-mongo": "index.js",
+    "xlsx-to-sql": "sql.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dry-run": "node index.js --dry-run",
+    "sql": "node sql.js",
+    "sql:dry-run": "node sql.js --dry-run"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "author": "P.Jedra",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "knex": "^3.3.0",
+    "mongodb": "^7.7.0"
+  },
+  "peerDependencies": {
+    "better-sqlite3": ">=11",
+    "mysql2": "^3.0.0",
+    "pg": "^8.0.0",
+    "tedious": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "better-sqlite3": { "optional": true },
+    "mysql2": { "optional": true },
+    "pg": { "optional": true },
+    "tedious": { "optional": true }
+  }
+}
