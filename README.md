@@ -3,7 +3,7 @@ Generic NodeJS scripts that read Excel (`.xlsx`) workbooks and upload their rows
 
 ## Getting Started
 
-1. Clone the repository (https://www.github.com/pjedra96/xlsx_to_database) to a directory of your choice.
+1. Clone the repository (https://www.github.com/pjedra96/xlsx_to_db) to a directory of your choice.
 2. Ensure that you have NodeJS installed (v20.12+) on your system.
 3. Run `npm install` to download the required packages.
 4. Copy `.env.example` to `.env` and set `MONGODB_URI`. `.env` is git-ignored.
