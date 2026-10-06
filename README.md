@@ -1,4 +1,4 @@
-# xlsx_to_database
+# xlsx_to_db
 Generic NodeJS scripts that read Excel (`.xlsx`) workbooks and upload their rows to a MongoDB collection (`index.js`) or a SQL table (`sql.js`, see [Saving to a SQL database](#saving-to-a-sql-database)). No schemas or database names are built in. Field names come from the spreadsheet itself. Both scripts read sheets the same way, using `lib/workbook.js`.
 
 ## Getting Started
